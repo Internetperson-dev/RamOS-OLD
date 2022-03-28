@@ -11,3 +11,4 @@ sudo apt-get remove nautilus nautilus-* gnome-power-manager gnome-screensaver gn
 sudo apt install tasksel
 sudo tasksel install kubuntu-desktop
 sudo apt update && sudo apt upgrade -y 
+#Installing theme
