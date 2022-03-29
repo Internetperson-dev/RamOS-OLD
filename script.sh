@@ -11,4 +11,4 @@ sudo apt-get remove nautilus nautilus-* gnome-power-manager gnome-screensaver gn
 sudo apt install tasksel
 sudo tasksel install kubuntu-desktop
 sudo apt update && sudo apt upgrade -y 
-echo"Sorry but I am too lazy to automate this one but go to https://youtu.be/A0LiFu1eaMs?t=100 once you are in a webbrowser and just get the layan theme (also get the legacy kickoff start menu)
+echo"Sorry but I am too lazy to automate this one but go to https://youtu.be/A0LiFu1eaMs?t=100 once you are in a webbrowser and just get the layan theme (also get the legacy kickoff start menu and the icons)
