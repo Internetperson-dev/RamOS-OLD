@@ -9,6 +9,4 @@ sudo sed -i 's/enabled=1/enabled=0/g' /etc/default/apport
 sudo apt-get remove nautilus nautilus-* gnome-power-manager gnome-screensaver gnome-termina* gnome-pane* gnome-applet* gnome-bluetooth gnome-desktop* gnome-sessio* gnome-user* gnome-shell-common zeitgeist-core libzeitgeist* gnome-control-center gnome-screenshot gnome* && sudo apt-get autoremove -y
 #Give me that RamOS UI
 sudo apt install tasksel -y
-sudo tasksel install kubuntu-desktop -y
-sudo apt update && sudo apt upgrade -y 
-echo"Sorry but I am too lazy to automate this one but go to https://youtu.be/A0LiFu1eaMs?t=100 once you are in a webbrowser and just get the layan theme (also get the legacy kickoff start menu and the icons)
+sudo tasksel installl kubuntu
