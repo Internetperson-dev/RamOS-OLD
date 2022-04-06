@@ -16,4 +16,14 @@ sudo apt install doas
 #nala is just better.
 echo "deb [arch=amd64,arm64,armhf] http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list
 wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
-sudo apt update && sudo apt install nala
+sudo apt update && sudo apt install nala -y
+#Install Onlyoffice and ms fonts
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
+echo "deb https://download.onlyoffice.com/repo/debian squeeze main" | sudo tee /etc/apt/sources.list.d/onlyoffice.list
+sudo apt-get update -y
+sudo apt-get install ttf-mscorefonts-installer -y
+sudo apt-get install onlyoffice-documentserver -y
+#Getting MPV (and removing vlc)
+sudo apt install mpv -y
+sudo apt remove vlc -y
+
