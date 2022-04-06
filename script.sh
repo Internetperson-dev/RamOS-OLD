@@ -38,3 +38,14 @@ sudo apt install obs-studio
 sudo apt install handbrake
 #Use Scrcpy with kde connect for an apple like phone desktop intergration 
 sudo apt install scrcpy
+#Oh My ZSH! install
+sudo apt install zsh
+#!/bin/bash
+
+touch "$HOME/.cache/zshhistory"
+#-- Setup Alias in $HOME/zsh/aliasrc
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+chsh $USER
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+#Should auto set it up and add power10k later
