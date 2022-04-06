@@ -52,5 +52,7 @@ python3 -m pip install -U yt-dlp
 #Should auto set it up and add power10k later
 
 #Optimize Firefox for speed and privacy
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/black7375/Firefox-UI-Fix/master/install.sh)"
+#I would do photon
 
 #Install Layan
