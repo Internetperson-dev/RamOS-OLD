@@ -36,3 +36,5 @@ sudo apt update
 sudo apt install obs-studio
 #Get handbrake
 sudo apt install handbrake
+#Use Scrcpy with kde connect for an apple like phone desktop intergration 
+sudo apt install scrcpy
