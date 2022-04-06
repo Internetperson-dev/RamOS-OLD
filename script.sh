@@ -48,6 +48,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 chsh $USER
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+python3 -m pip install -U yt-dlp
 #Should auto set it up and add power10k later
 
 #Optimize Firefox for speed and privacy
