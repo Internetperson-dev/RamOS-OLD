@@ -11,7 +11,6 @@ sudo apt-get remove nautilus nautilus-* gnome-power-manager gnome-screensaver gn
 sudo apt install tasksel -y
 sudo tasksel installl kubuntu -y
 sudo apt-get install lightdm -y
-sudo apt install doas
 #Need to one day set up auto set up for doas but it is not that day
 #nala is just better.
 echo "deb [arch=amd64,arm64,armhf] http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list
@@ -26,7 +25,8 @@ sudo apt-get install onlyoffice-documentserver -y
 #Configuring more things
 sudo apt install mpv -y
 sudo apt remove vlc -y
-sudo apt install qbittorrent
+sudo apt install qbittorrent -y
+sudo apt install doas -y
 #Getting Audacium (audcity for now because it is not easily command line installable)
 sudo apt install audacity
 #Get OBS
