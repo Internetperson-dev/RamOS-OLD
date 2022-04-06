@@ -26,4 +26,3 @@ sudo apt-get install onlyoffice-documentserver -y
 #Getting MPV (and removing vlc)
 sudo apt install mpv -y
 sudo apt remove vlc -y
-
