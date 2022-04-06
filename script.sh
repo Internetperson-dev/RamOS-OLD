@@ -23,8 +23,16 @@ echo "deb https://download.onlyoffice.com/repo/debian squeeze main" | sudo tee /
 sudo apt-get update -y
 sudo apt-get install ttf-mscorefonts-installer -y
 sudo apt-get install onlyoffice-documentserver -y
-#Getting MPV (and removing vlc)
+#Configuring more things
 sudo apt install mpv -y
 sudo apt remove vlc -y
-#Qbittorrent
 sudo apt install qbittorrent
+#Getting Audacium (audcity for now because it is not easily command line installable)
+sudo apt install audacity
+#Get OBS
+sudo apt install v4l2loopback-dkms
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio
+#Get handbrake
+sudo apt install handbrake
