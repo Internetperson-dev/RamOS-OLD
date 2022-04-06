@@ -49,3 +49,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 chsh $USER
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 #Should auto set it up and add power10k later
+
+#Optimize Firefox for speed and privacy
+
+#Install Layan
