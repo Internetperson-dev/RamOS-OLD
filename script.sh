@@ -50,6 +50,11 @@ chsh $USER
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 python3 -m pip install -U yt-dlp
 #Should auto set it up and add power10k later
+#IDK Why but I have to compile noisetourch
+sudo apt install golang-go -y
+ git clone https://github.com/lawl/NoiseTorch
+ cd NoiseTorch
+ make
 
 #Optimize Firefox for speed and privacy
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/black7375/Firefox-UI-Fix/master/install.sh)"
