@@ -1,6 +1,6 @@
 # RamOS
 
-# Dead project just use https://github.com/Rameez10-REAL/RamOS-2.0 please
+# Dead project just use https://github.com/Rameez10-REAL/RamOS please
 
 
 
